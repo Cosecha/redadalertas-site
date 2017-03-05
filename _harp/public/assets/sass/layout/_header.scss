@@ -16,7 +16,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
-		background-image: url('images/overlay.png'), url('images/pattern-size1.svg');
+		background-image: url('../images/overlay.png'), url('../images/pattern-size1.svg');
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -64,7 +64,7 @@
 
 		// Large.
 			@include breakpoint(large) {
-				background-image: url('images/overlay.png'), url('images/pattern-size2.svg');
+				background-image: url('../images/overlay.png'), url('../images/pattern-size2.svg');
 			}
 
 		// Medium.
@@ -97,7 +97,7 @@
 
 		// Small.
 			@include breakpoint(small) {
-				background-image: url('images/overlay.png'), url('images/pattern-size3.svg');
+				background-image: url('../images/overlay.png'), url('../images/pattern-size3.svg');
 
 				h1 {
 					font-size: 2em;
