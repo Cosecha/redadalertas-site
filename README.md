@@ -43,3 +43,43 @@ To deploy:
 ```
 surge
 ```
+
+## Set up your repo for GitHub Pages
+
+From the root of the project repo:
+```
+cd _harp
+```
+Create the `gh-pages` directory:
+```
+mkdir gh-pages
+```
+Clone the project repo into that directory, and change into that directory:
+```
+git clone https://github.com/cosecha/redadalertas-site.git --branch gh-pages --single-branch gh-pages
+
+```
+You now have a `./_harp/gh-pages` directory that is ignored by git. Inside this directory is another git repository of this same project, but ONLY the gh-pages branch.
+
+
+## Deploy to GitHub pages
+
+To build out the html and css, run:
+
+`gulp compile`
+
+Now that you have generated new HTML, it is time to 'deploy' to GitHub Pages.
+
+From the root of the project repo, change into the `gh-pages` directory:
+```
+cd _harp/gh-pages
+```
+Add and commit any changes to the generated documentation:
+```
+git add -all
+git commit -m "Your commit message here"
+```
+And now push the changes to the only remote available, `gh-pages`:
+```
+git push origin gh-pages
+```
