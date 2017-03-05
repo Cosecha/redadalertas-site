@@ -64,6 +64,10 @@ You now have a `./_harp/gh-pages` directory that is ignored by git. Inside this 
 
 ## Deploy to GitHub pages
 
+To build out the html and css, run:
+
+`gulp compile`
+
 Now that you have generated new HTML, it is time to 'deploy' to GitHub Pages.
 
 From the root of the project repo, change into the `gh-pages` directory:
