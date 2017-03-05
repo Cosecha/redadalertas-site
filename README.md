@@ -1,5 +1,5 @@
 # RedadAlertas Static Site
-Static website for local Phoenix tire shop at [http://redadalertas.com](http://redadalertas.com).
+Static website for redadalertas at [http://redadalertas.com](http://redadalertas.com).
 
 ## Requirements
 
