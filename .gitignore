@@ -43,3 +43,4 @@ www/**
 # Folders to ignore
 bower
 source/bower
+gh-pages
