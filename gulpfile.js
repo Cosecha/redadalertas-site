@@ -16,7 +16,7 @@ var paths = {
   js: '_harp/public/assets/js/**/*.js',
 	harp: '_harp/',
 	harpPublic: '_harp/public/',
-	harpCompiled: 'www/'
+	harpCompiled: 'gh-pages/'
 };
 
 gulp.task('setup', function(){
